@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    font-family: Arial;
+}
+
+
+html{
+    scroll-behavior: smooth;
+    scroll-behavior: 6rem;
+}
+
+header {
+    background: #447604;
+    height: 6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    position: fixed;
+    width: 100%;
+    top: 0%;
+}
+
+header a {
+    color: white;
+    text-decoration: none ;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+nav{
+    display: flex;
+    gap: 5rem;
+}
+
+header a:hover {
+    text-decoration: underline;
+}
+
+section{
+    border: 1px solid green;
+    height: calc(100vh - 6rem);
+}
+
+#listas{
+    margin-top: 6rem;
+    text-align: center;
+} 
+
+#tabelas{
+    margin-top: 6rem;
+    text-align: center;
+}
